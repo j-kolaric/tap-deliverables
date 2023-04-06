@@ -49,7 +49,7 @@ spec:
       - env:
         - name: JAVA_TOOL_OPTIONS
           value: -Dserver.port="8080" -Dserver.shutdown.grace-period="24s"
-        image: registry.cloud-garage.net/jkolaric/supply-chain/tanzu-java-web-app-dev@sha256:b746ef62989cc275d3bb8f5a93b0ece991acae0eccc898c828af82db2cd3bf94
+        image: registry.cloud-garage.net/jkolaric/supply-chain/tanzu-java-web-app-dev@sha256:afd793c1286bcc2e95bfed1deb5f28570d31be988353741eb908ee9cbf1bdc81
         name: workload
         ports:
         - containerPort: 8080
